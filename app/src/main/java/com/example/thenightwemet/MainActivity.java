@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
             if (hannah.indexOf("browser") != -1) {
 
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("https://github.com/ankitjadli"));
+                        Uri.parse("https://www.google.com/"));
                 startActivity(intent);
             }
         }
@@ -249,9 +249,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
